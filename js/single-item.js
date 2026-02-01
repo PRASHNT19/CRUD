@@ -8,10 +8,10 @@ export function createSingleItem(item) {
     ${item.name}
   </p>
   <button class="btn edit-btn" type="button">
-    <i class="fa-solid fa-pencil"></i>
+    <i class="fa-solid fa-pen-to-square"></i>
   </button>
   <button class="btn remove-btn" type="button">
-    <i class="fa-solid fa-xmark"></i>
+    <i class="fa-solid fa-trash"></i>
   </button>
 `;
   const checkbox = div.querySelector('input[type="checkbox"]');
